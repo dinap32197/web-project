@@ -1,0 +1,10 @@
+p {
+  color: green;
+}
+
+.imageborder {
+  border: solid;
+  border-radius: 200px;
+  border-width: thick;
+  border-color: #F34;
+}

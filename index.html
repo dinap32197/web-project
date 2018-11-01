@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+  <link href="css/style.css" rel="stylesheet">
+  <title> Dina's Website </title>
+  <style>
+    header {
+      text-align: center;
+      padding: 0px;
+      background: url('https://i.pinimg.com/originals/70/38/72/703872e909f3195a1c53989ed1340f28.jpg');
+      background-size: cover;
+      width: 100%;
+      color: #F34;
+      font-family: Garamond;
+    }
+    img {
+      width: 26%;
+      margin: 40px 0px 0px 0px;
+      border: sold;
+      border-color: red;
+      border-width: thick;
+    }
+    a {
+      color: #F34;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    h2 {
+      color: #699;
+      font-family: Garamond;
+    }
+    p {
+      font-family: Times;
+      text-align: justify;
+    }
+    button {
+      font-family: Garamond;
+      color: #F34;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(255,255,255,0.4);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 700px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+       img {
+      margin: 20px 0px 0px 0px;
+      overflow: auto;
+       }
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 3px;
+        display: block;
+      }
+      }
+
+      .first{
+        color: red;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="imageborder"src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/408838_303640816339958_225149786_n.jpg?_nc_cat=107&oh=ef0a77720f4a3c8274339f81ed3ee196&oe=5C5D3528">
+    <h1>Dina's Website</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Travel Stories</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Where to go</h2>
+    <p class="first">When one is in more dominating position (e.g. Legal, Power resources), tend to use competitive approaches to gain ones more favourable outcome, also often shy away from integrative problem solving -> compromising is often difficult to reach among parties in power asymmetry</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>TCK</h2>
+    <p>When one is in more dominating position (e.g. Legal, Power resources), tend to use competitive approaches to gain ones more favourable outcome, also often shy away from integrative problem solving -> compromising is often difficult to reach among parties in power asymmetry</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>People</h2>
+    <p>When one is in more dominating position (e.g. Legal, Power resources), tend to use competitive approaches to gain ones more favourable outcome, also often shy away from integrative problem solving -> compromising is often difficult to reach among parties in power asymmetry</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
